@@ -42,6 +42,16 @@ body {
   letter-spacing: 10px;
 }
 
+
+
+.first a .icon {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 80%;
+  cursor: pointer;
+}
+
 @media(max-width: 600px){
   .first .name p {
     width: 100%;
@@ -58,24 +68,13 @@ body {
 
   }
 
-  .first a .icon {
-    position: absolute;
-    margin: auto;
-    left: 50%;
-    top: 80%;
-    cursor: pointer;
+  .first a {
+      transform: rotate(280deg);
+      margin-top: 20%;
   }
   
 }
 
-
-.first a .icon {
-  position: absolute;
-  margin: auto;
-  left: 50%;
-  top: 80%;
-  cursor: pointer;
-}
 
 .icons {
   display: flex;
