@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.primary-title {
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+}
+
+.first h1 {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 4em;
+  font-weight: 400;
+  font-family: inherit;
+  letter-spacing: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+
+.first .name p {
+  margin-right: 90%;
+  margin-top: -15%;
+  font-size: 4rem;
+  width: 100%;
+  text-align: left;
+  text-transform: capitalize;
+  letter-spacing: 10px;
+}
+
+@media(max-width: 600px){
+  .first .name p {
+    width: 100%;
+    margin-top: -40%;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+
+  }
+
+  .first h1 {
+    font-size: 3.5rem;
+    width: 115%;
+
+  }
+
+  .first a .icon {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 80%;
+    cursor: pointer;
+  }
+  
+}
+
+
+.first a .icon {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 80%;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons i {
+  margin: 1%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.icons .github:hover {
+  opacity: .7;
+}
+
+.icons .linkedin:hover {
+  color: #0077b5;
+}
+
+.about {
+  text-align: center;
+}
+
+.about .aboutText {
+  margin: auto;
+  width: 50%;
+  line-height: 1.4;
+}
+
+@media(max-width: 600px){
+  .about .aboutText {
+    margin: auto;
+    width: 100%;
+    line-height: 1.4;
+  }
+}
